@@ -1,0 +1,29 @@
+{
+  "name": "karura-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.11",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.14",
+    "ts-custom-error": "^3.2.0",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/method-override": "^0.0.32",
+    "@types/mongoose": "^5.11.97",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0"
+  }
+}
