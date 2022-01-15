@@ -12,7 +12,6 @@ export default async function tokensInfo(
       {},
       { symbol: 1, decimals: 1, isNative: 1, isStable: 1, priceUSD: 1 }
     );
-    console.log(data);
     if (data.length === 0) {
       throw new HttpError(404, "no data found");
     }
